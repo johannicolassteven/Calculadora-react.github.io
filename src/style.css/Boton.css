@@ -15,13 +15,13 @@
     user-select: none;
 }
 .boton-contenedor:hover{
-    background-color: rgb(247, 143, 15);
+    background-color: #31315c;
 }
 
 .operador{
-    background-color: #00471b;
+    background-color: #0e4122;
 }
 
 .operador:hover{
-    background-color: #f11f14;
+    background-color: #176b39;
 }

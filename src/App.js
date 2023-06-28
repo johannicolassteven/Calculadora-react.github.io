@@ -21,7 +21,7 @@ function App() {
 
   return (
     <div className="App">
-
+      <p className='title'>Calculadora JNS</p>
       <div className='contenedor-calculadora'>
       <Pantalla input={input}/>
       <div className='fila'>
@@ -49,7 +49,7 @@ function App() {
         <Boton manejarClic={agregarInput}>/</Boton></div> 
           
       <div className='fila'>
-        <BotonClear manejarClear={()=> setInput("")}>Clear</BotonClear>
+        <BotonClear manejarClear={()=> setInput("")}>Borrar</BotonClear>
       </div>
       </div>
 
